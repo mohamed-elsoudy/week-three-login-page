@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart Page</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #e6e9e8;">
+    <nav class="navbar navbar-expand-lg header">
+        <div class="container">
+            <a class="navbar-brand" href="/home.html"><i class="fa-solid fa-shop"></i> My shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link fw-bold" aria-current="page" href="/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="active nav-link fw-bold" href="/cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link fw-bold" href="/logout.html">Logout</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="products col-7 mt-4 mb-4 rounded-start">
+                    <div class="product d-flex">
+                        <img src="imgs/product1.jpeg" width="150px" class="rounded" alt="">
+                        <div class="details">
+                            <span class="title d-block fs-2 d-block pb-4 mb-4">Magic coat</span>
+                            <div class="amount pt-4 d-flex">
+                                <span class="rounded-circle p-3 text-bg-secondary">+</span>
+                                <span class="fs-2">2</span>
+                                <span class="rounded-circle p-3 text-bg-secondary">-</span>
+                            </div>
+                        </div>
+                        <div class="price fs-2 d-flex align-items-end">
+                            180$
+                        </div>
+                        <div class="price fs-2 d-flex align-items-end ms-4">
+                            <button class="btn btn-danger">
+                                Remove item
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product d-flex">
+                        <img src="imgs/product4.jpeg" width="150px" class="rounded" alt="">
+                        <div class="details">
+                            <span class="title d-block fs-2 d-block pb-4 mb-4">Iron man suit</span>
+                            <div class="amount pt-4 d-flex">
+                                <span class="rounded-circle p-3 text-bg-secondary">+</span>
+                                <span class="fs-2">1</span>
+                                <span class="rounded-circle p-3 text-bg-secondary">-</span>
+                            </div>
+                        </div>
+                        <div class="price fs-2 d-flex align-items-end">
+                            1350$
+                        </div>
+                        <div class="price fs-2 d-flex align-items-end ms-4">
+                            <button class="btn btn-danger">
+                                Remove item
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary col-12 col-md-4 p-4 mt-4 mb-4 rounded">
+                    <span class="d-block price-span">price : </span>
+                    <span class="d-block delv-span">Delivery service : </span>
+                    <span class="d-block total-span">Total price : </span>
+                </div>
+            </div>
+        </div>
+    <script src="js/cart.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

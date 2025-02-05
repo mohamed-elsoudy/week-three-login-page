@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    background-color: hsl(295.26deg 48.31% 53.73%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* login page */
+.login {
+    background-color: hsl(0deg 0% 100%);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 150px auto 0;
+    padding: 20px 40px;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login form h2 {
+    text-align: center;
+}
+.login form input {
+    border: none;
+    border-radius: 18px;
+    background-color: hsl(0deg 0% 90.2%);
+    padding: 15px 40px;
+}
+.login form div {
+    position: relative;
+    margin-bottom: 15px;
+}
+.login form div i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+.login form .submit input {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(111.86deg 46.83% 49.41%);
+    cursor: pointer;
+}
+.login form span {
+    text-align: center;  
+    color: #777;
+    font-size: small;
+    cursor: pointer;
+}
+/* logout page */
+.logout {
+    background-color: hsl(0deg 0% 100%);
+    width: 55%;
+    margin: 150px auto 0;
+    padding: 20px 40px;
+}
+.logout-btn {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #f64746;
+    color: white;
+    border: none;
+}
+/*products page*/
+.header {
+    background-color: hsl(295.26deg 48.31% 53.73%);
+}
+.header a {
+    color: white;
+}
+.header a:hover {
+    color: white;
+}
+.card {
+    padding: 0;
+    background-color: #f6f4fc;
+}
+.card h5 svg {
+    display: inline-block;
+    padding-left: 110px;
+    color: hsl(295, 5%, 59%);
+}
+.product {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.product button {
+    align-items: end;
+}
+.details {
+    flex: 1;
+}
+.amount span {
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.summary {
+    background-color: white;
+}
+.summary span {
+    color: #adadad;
+    font-size: 22px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
