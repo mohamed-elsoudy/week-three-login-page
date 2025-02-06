@@ -32,5 +32,5 @@ if (!cuurentUser) {
 
 
 function goToTheLoginPage() {
-    window.location.replace("/login.html");
+    window.location.replace("https://mohamed-elsoudy.github.io/week-three-login-page/");
 }
