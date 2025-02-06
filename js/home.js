@@ -5,7 +5,7 @@ let cuurentUser = JSON.parse(window.localStorage.getItem("users")).filter(el => 
 let users = JSON.parse(window.localStorage.getItem("users"));
 
 if(!cuurentUser) {
-    window.location.replace("./login.html")
+    window.location.replace("https://mohamed-elsoudy.github.io/week-three-login-page/")
 } else {
     let adds = document.querySelectorAll(".card-body a");
     adds.forEach((a) => {
