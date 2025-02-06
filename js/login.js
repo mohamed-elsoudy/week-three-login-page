@@ -82,5 +82,5 @@ if (!loggedUser) {
 }
 
 function goToTheHomePage(user) {
-    window.location.replace("/home.html");
+    window.location.replace("https://mohamed-elsoudy.github.io/week-three-login-page/home.html");
 }
