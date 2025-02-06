@@ -8,7 +8,7 @@ let newArr = [];
 
 
 if (!cuurentUser) {
-    window.location.replace("./login.html");
+    window.location.replace("https://mohamed-elsoudy.github.io/week-three-login-page/");
 } else {
     newArr = JSON.parse(window.localStorage.getItem("users"));
     newArr.forEach(u => {
