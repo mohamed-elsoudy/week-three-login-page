@@ -32,7 +32,8 @@ let cuurentUser = JSON.parse(window.localStorage.getItem("users")).filter(el => 
 })[0];
 
 if(!cuurentUser) {
-    window.location.replace("https://mohamed-elsoudy.github.io/week-three-login-page")
+    console.log("not current user");
+    window.location.replace("https://mohamed-elsoudy.github.io/week-three-login-page");
 } else {
     
     users.forEach(element => {
