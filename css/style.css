@@ -21,8 +21,12 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 800px;
-    margin: 150px 20px 0;
+    margin: 150px auto 0;
     padding: 20px 40px;
+}
+@media (max-width: 768px) {
+    .login {
+    margin: 100px 20px;
 }
 .login form {
     display: flex;
