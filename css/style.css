@@ -28,6 +28,7 @@ a {
     .login {
     margin: 100px 20px;
 }
+}
 .login form {
     display: flex;
     flex-direction: column;
