@@ -1,33 +1,12 @@
-# Login and Products Page
+# React + Vite
 
-## Project Description
-This project includes a **Login Page** and a **Products Page** and a **logout page** designed for user authentication and displaying a list of products in an organized way.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- Responsive design for all devices.
-- Good user experience.
-- data saved in local storage.
-- You can not sign up with a user and password in the database. 
-### Login Page
-- User can enter email and password.
-- Form validation to ensure correct input.
-- You are not obligated to sign up.
-- Once you sign in the site you automatic signup and become into the data base. 
+Currently, two official plugins are available:
 
-### Products Page
-- Display a list of products with images, names, and prices.
-- Responsive design for all devices.
-- You can add products to the cart.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### cart Page
-- Display a list of products with images, names, and prices.
-- Responsive design for all devices.
-- You can remove items from the cart.
-- You can know the total price and other costs
+## Expanding the ESLint configuration
 
-### Technologies Used
-- HTMl, CSS, JAVA SCRIPT
-- Local storage as a database
-
-
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
